@@ -1,0 +1,24 @@
+{
+  "name": "webgputs",
+  "version": "1.0.0",
+  "description": "webgpu testing using Typescript",
+  "main": "app.js",
+  "scripts": {
+    "dev": "npx nodemon app.js",
+    "build": "webpack --mode development",
+    "tsc": "tsc"
+  },
+  "author": "dylrob34",
+  "license": "ISC",
+  "dependencies": {
+    "@webgpu/types": "^0.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "ts-loader": "^9.2.5",
+    "webpack": "^5.53.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "webpack-cli": "^4.8.0"
+  }
+}
